@@ -1,0 +1,57 @@
+/* Estilos para las flores */
+.flower {
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+}
+
+.flower-center {
+    width: 20px;
+    height: 20px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    position: relative;
+}
+
+.petal {
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    background-color: #ff66cc;
+    border-radius: 15px;
+}
+
+.petal-1 { transform: rotate(0deg) translateY(-20px); }
+.petal-2 { transform: rotate(45deg) translateY(-20px); }
+.petal-3 { transform: rotate(90deg) translateY(-20px); }
+.petal-4 { transform: rotate(135deg) translateY(-20px); }
+.petal-5 { transform: rotate(180deg) translateY(-20px); }
+.petal-6 { transform: rotate(225deg) translateY(-20px); }
+.petal-7 { transform: rotate(270deg) translateY(-20px); }
+.petal-8 { transform: rotate(315deg) translateY(-20px); }
+
+/* Decoraciones de flores en la página */
+.decoration {
+    position: absolute;
+    z-index: 0;
+}
+
+.decoration-top-left {
+    top: 20px;
+    left: 20px;
+}
+
+.decoration-top-right {
+    top: 20px;
+    right: 20px;
+}
+
+.decoration-bottom-left {
+    bottom: 20px;
+    left: 20px;
+}
+
+.decoration-bottom-right {
+    bottom: 20px;
+    right: 20px;
+}
